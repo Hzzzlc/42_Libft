@@ -13,7 +13,7 @@ ft_strrchr.c ft_strncmp.c ft_memchr.c ft_memcmp.c ft_strnstr.c ft_atoi.c ft_call
 ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c \
 ft_putendl_fd.c ft_putnbr_fd.c
 
-HEADER_DIR = ./inlcudes
+HEADER_DIR = ./includes
 
 OBJ = $(CFILES:.c=.o)
 
@@ -25,14 +25,11 @@ CFLAGS = -Wall -Wextra -Werror -I $(HEADER_DIR)
 all: $(NAME)
 
 $(NAME):$(OBJ)
-	@echo "Compiling $(NAME) and creating object files..."
 	ar rcs $(NAME) $(OBJ)
 
 clean:
-	@echo "Removing object files..."
-	@rm -f $(OBJ)
+	rm -f $(OBJ)
 fclean: clean
-	@echo "Removing $(NAME) .exe..."
 	@rm -f $(NAME)
 
 re: fclean all

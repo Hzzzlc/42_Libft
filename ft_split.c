@@ -6,7 +6,7 @@
 /*   By: hcruz-me <hcruz-me@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 12:04:20 by hcruz-me          #+#    #+#             */
-/*   Updated: 2024/10/04 11:10:37 by hcruz-me         ###   ########.fr       */
+/*   Updated: 2024/10/06 10:01:28 by hcruz-me         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ static char	*ft_fillsplit(const char *s, int end, int start)
 	return (strcp);
 }
 
-static int	ft_handle_split(const char *s, char c, char **str, int *x)
+static int	ft_div_s(const char *s, char c, char **str, int *x)
 {
 	int	i;
 	int	start;
@@ -98,7 +98,7 @@ char	**ft_split(char const *s, char c)
 	str = malloc ((words + 1) * sizeof(char *));
 	if (!str)
 		return (NULL);
-	if (!ft_handle_split(s, c, str, &x))
+	if (!ft_div_s(s, c, str, &x))
 		return (ft_free(str, x), NULL);
 	return (str);
 }

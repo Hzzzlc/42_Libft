@@ -6,7 +6,7 @@
 /*   By: hcruz-me <hcruz-me@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 11:29:07 by hcruz-me          #+#    #+#             */
-/*   Updated: 2024/10/02 14:13:03 by hcruz-me         ###   ########.fr       */
+/*   Updated: 2024/10/06 10:13:28 by hcruz-me         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	buffer = (void *)malloc(size * nmemb);
 	if (!buffer)
-	{
 		return (NULL);
-	}
 	ft_bzero(buffer, size * nmemb);
 	return (buffer);
 }

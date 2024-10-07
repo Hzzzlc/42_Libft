@@ -1,9 +1,9 @@
-# 42_Libft.c
+# 📂42_Libft.c
 Proyecto que reune varias funciones de la biblioteca estándar de C, las cuales su porpósito general es apoyar a programas avanzados.
 
-#Makefile
-Makefila es un arhivo utilizado por la herramienta Make, se utiliza principalmente en proyectos de programación
-para automatizar la compìlación y gestión de archivos y dependencias.
+##️⃣Makefile
+Makefila es un arhivo utilizado por la herramienta Make🛠️, se utiliza principalmente en proyectos de programación
+para automatizar la compìlación y gestión de archivos y dependencias ⚙️💻.
 
 #Uso de Makefile
 - **`make all`**: Compila todos los archivos, creando así como resultado final **libft.a**

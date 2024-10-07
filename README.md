@@ -5,7 +5,7 @@ Proyecto que reune varias funciones de la biblioteca estándar de C, las cuales 
 Makefila es un arhivo utilizado por la herramienta Make🛠️, se utiliza principalmente en proyectos de programación
 para automatizar la compìlación y gestión de archivos y dependencias ⚙️💻.
 
-#Uso de Makefile
+# Uso de Makefile
 - **`make all`**: Compila todos los archivos, creando así como resultado final **libft.a**
 - **`make re`**: Elimina los archivos compilados y los vuelve a compilar (**.o**).
 - **`make clean`**: Elimina los archivos compilados (**.o**).

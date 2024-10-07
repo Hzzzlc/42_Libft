@@ -13,5 +13,5 @@ para automatizar la compìlación y gestión de archivos y dependencias ⚙️�
 
 
 
-#autor
+# autor
 @hzzzlc
